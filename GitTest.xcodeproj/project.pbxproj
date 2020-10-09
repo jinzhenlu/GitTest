@@ -14,6 +14,7 @@
 		C7AF1A94252FFFB60093A08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AF1A93252FFFB60093A08F /* Assets.xcassets */; };
 		C7AF1A97252FFFB60093A08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AF1A95252FFFB60093A08F /* LaunchScreen.storyboard */; };
 		C7AF1A9A252FFFB60093A08F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF1A99252FFFB60093A08F /* main.m */; };
+		C7AF1AA225300ECD0093A08F /* NewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF1AA125300ECD0093A08F /* NewLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C7AF1A96252FFFB60093A08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7AF1A98252FFFB60093A08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7AF1A99252FFFB60093A08F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7AF1AA025300ECD0093A08F /* NewLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewLabel.h; sourceTree = "<group>"; };
+		C7AF1AA125300ECD0093A08F /* NewLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				C7AF1A95252FFFB60093A08F /* LaunchScreen.storyboard */,
 				C7AF1A98252FFFB60093A08F /* Info.plist */,
 				C7AF1A99252FFFB60093A08F /* main.m */,
+				C7AF1AA025300ECD0093A08F /* NewLabel.h */,
+				C7AF1AA125300ECD0093A08F /* NewLabel.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				C7AF1A8F252FFFB40093A08F /* ViewController.m in Sources */,
 				C7AF1A89252FFFB40093A08F /* AppDelegate.m in Sources */,
 				C7AF1A9A252FFFB60093A08F /* main.m in Sources */,
+				C7AF1AA225300ECD0093A08F /* NewLabel.m in Sources */,
 				C7AF1A8C252FFFB40093A08F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
